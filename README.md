@@ -1,6 +1,6 @@
-# Projeto 1
+# Projeto 2
 
-O projeto 1 envolve o desenvolvimento de um programa em que o uso de estruturas de dados lineares seja essencial. Assim, o uso de [filas](https://wiki.sj.ifsc.edu.br/index.php/PRG29003:_Introdução_a_Filas), [pilhas](https://wiki.sj.ifsc.edu.br/index.php/PRG29003:_Introdu%C3%A7%C3%A3o_a_Pilhas) e/ou [listas](https://wiki.sj.ifsc.edu.br/index.php/PRG29003:_Introdu%C3%A7%C3%A3o_a_Listas) deve ser fundamental para que o programa atenda seus [requisitos funcionais](https://homepages.dcc.ufmg.br/~figueiredo/disciplinas/aulas/req-funcional-rnf_v01.pdf). 
+O projeto 1 envolve o desenvolvimento de um programa em que o uso de estruturas de dados **associativas** seja essencial. Assim, o uso de [tabelas hash e conjuntos](https://wiki.sj.ifsc.edu.br/index.php/PRG29003:_Introdu%C3%A7%C3%A3o_a_Tabelas_Hash) deve ser fundamental para que o programa atenda seus [requisitos funcionais](https://homepages.dcc.ufmg.br/~figueiredo/disciplinas/aulas/req-funcional-rnf_v01.pdf). Outras estruturas de dados também podem ser usadas, porém de forma auxiliar.
 
 O tema do projeto deve ser escolhido por cada equipe. O programa a ser desenvolvido devem, primeiramente, ser devidamente explicado. Isso significa que devem ser enunciados:
 * O objetivo do projeto (ex: *escrever um programa para editar listas de reprodução de músicas*)
@@ -14,7 +14,7 @@ O projeto deve ser desenvolvido de equipes de até 3 alunos. Não são aceitos p
 
 A modelagem deve mostrar o seguinte:
 1. **A estrutura do programa**: pensem nos blocos funcionais que o constituem (ex: interface com usuário, repositório de contatos, processador de contatos)
-2. **Representação dos dados**: como são representados contatos, e listas de contatos ? Como eles são armazenados ou organizados na memória usada pelo programa ?
+2. **Representação dos dados**: como são representados contatos, e listas de contatos ? Como eles são armazenados ou organizados na memória usada pelo programa ? Quais os tipos de dados a serem definidos para representá-los ?
 3. **Funcionalidades do programa**: para cada funcionalidade do programa, escrevam a sequência de ações que devem ser realizadas (algo como um algoritmo simplificado e em pseudo-código)
 
 ## Desenvolvimento do projeto e acompanhamento pelo professor
@@ -35,6 +35,6 @@ Por meio da aba *Projects* o professor poderá acompanhar o andamento das ativid
 ## Avaliação do projeto
 
 O projeto será avaliado nas seguintes dimensões:
-1. O programa foi implementado e atende os requisitos enunciados, usando as estruturas de dados conforme descrito em sua modelagem, sem apresentar comportamentos inesperados nem trancamentos (*60% do conceito*)
+1. O programa foi implementado e atende os requisitos enunciados, usando as estruturas de dados conforme descrito em sua modelagem, sem apresentar comportamentos inesperados nem trancamentos (*80% do conceito*)
 1. O programa foi documentado em um arquivo de texto em formato PDF, incluindo uma descrição de sua modelagem e requisitos funcionais, e como cada um deles foi atingido. Esse texto deve também explicar quais estruturas de dados foram usadas, e para que finalidade, mostrando sua relevância na escrita do programa. (*20% do conceito*)
-1. As tarefas e suas atividades foram registradas no github, e seus prazos foram cumpridos (*20% do conceito*)
+~1. As tarefas e suas atividades foram registradas no github, e seus prazos foram cumpridos (*20% do conceito*)~
