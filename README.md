@@ -1,6 +1,6 @@
 # Projeto 2
 
-O projeto 1 envolve o desenvolvimento de um programa em que o uso de estruturas de dados **associativas** seja essencial. Assim, o uso de [tabelas hash e conjuntos](https://wiki.sj.ifsc.edu.br/index.php/PRG29003:_Introdu%C3%A7%C3%A3o_a_Tabelas_Hash) deve ser fundamental para que o programa atenda seus [requisitos funcionais](https://homepages.dcc.ufmg.br/~figueiredo/disciplinas/aulas/req-funcional-rnf_v01.pdf). Outras estruturas de dados também podem ser usadas, porém de forma auxiliar.
+O projeto 2 envolve o desenvolvimento de um programa em que o uso de estruturas de dados **associativas** seja essencial. Assim, o uso de [tabelas hash e conjuntos](https://wiki.sj.ifsc.edu.br/index.php/PRG29003:_Introdu%C3%A7%C3%A3o_a_Tabelas_Hash) deve ser fundamental para que o programa atenda seus [requisitos funcionais](https://homepages.dcc.ufmg.br/~figueiredo/disciplinas/aulas/req-funcional-rnf_v01.pdf). Outras estruturas de dados também podem ser usadas, porém de forma auxiliar.
 
 O tema do projeto deve ser escolhido por cada equipe. O programa a ser desenvolvido devem, primeiramente, ser devidamente explicado. Isso significa que devem ser enunciados:
 * O objetivo do projeto (ex: *escrever um programa para editar listas de reprodução de músicas*)
