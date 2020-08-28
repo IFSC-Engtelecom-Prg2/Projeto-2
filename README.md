@@ -1,10 +1,12 @@
-# Projeto 2
+# Projeto 3
 
-O projeto 1 envolve o desenvolvimento de um programa em que o uso de estruturas de dados **associativas** seja essencial. Assim, o uso de [tabelas hash e conjuntos](https://wiki.sj.ifsc.edu.br/index.php/PRG29003:_Introdu%C3%A7%C3%A3o_a_Tabelas_Hash) deve ser fundamental para que o programa atenda seus [requisitos funcionais](https://homepages.dcc.ufmg.br/~figueiredo/disciplinas/aulas/req-funcional-rnf_v01.pdf). Outras estruturas de dados também podem ser usadas, porém de forma auxiliar.
+O projeto 3 envolve o desenvolvimento de um programa em que o uso de estruturas de dados **associativas** seja essencial. Assim, o uso de [árvores de pesquisa binárias](https://wiki.sj.ifsc.edu.br/index.php/PRG29003:_Introdu%C3%A7%C3%A3o_a_%C3%A1rvores_bin%C3%A1rias#Um_exemplo_de_.C3.A1rvore_de_pesquisa_bin.C3.A1ria) deve ser fundamental para que o programa atenda seus [requisitos funcionais](https://homepages.dcc.ufmg.br/~figueiredo/disciplinas/aulas/req-funcional-rnf_v01.pdf). Outras estruturas de dados também podem ser usadas, porém de forma auxiliar.
 
 O tema do projeto deve ser escolhido por cada equipe. O programa a ser desenvolvido devem, primeiramente, ser devidamente explicado. Isso significa que devem ser enunciados:
-* O objetivo do projeto (ex: *escrever um programa para editar listas de reprodução de músicas*)
-* Um resumo que contextualize o programa ser escrito (ex: *Listas de reprodução de músicas definem sequências de músicas, e são armazenadas em arquivos. Diferentes formatos de arquivos para essa finalidade existem, tais como M3U e PLS. A criação de tais arquivos por vezes é trabalhosa, envolvendo selecionar manualmente músicas via aplicativos gráficos. Um programa que gerasse arquivos de listas de reprodução automaticamente, com base em critérios definidos pelo usuário, simplificaria esse processo.*)
+* O objetivo do projeto. Ex:
+  * *escrever um programa que apresente opções para autocompletar palavras*
+* Um resumo que contextualize o programa ser escrito: Ex:
+  * _Interfaces de usuário para diferentes sistemas servem para que se digitem textos ou termos de busca. Cada palavra ou termo a ser digitado deve ser compatível ou consistente com o que se espera em tal sistema. Por exemplo, um editor de texto espera uma palavra escrita corretamente, e um sistema de consulta de estoque pede um nome válido de produto. Um programa que oferecesse opções para palavras ou termos de busca, a partir de seus caracteres iniciais, tornaria a interface de usuário mais amigável e evitaria a digitação de valores incorretos_.
 * Os requisitos funcionais do programa, que informam o que o programa deve fazer em cada situação, e qual o resultado a ser gerado.
 * A [modelagem do programa](https://pt.wikipedia.org/wiki/Modelagem_de_software), para explicar sua estrutura e suas características e comportamento. Quer dizer, deve-se explicar de forma geral como o programa será escrito.
 
@@ -13,9 +15,9 @@ O projeto deve ser desenvolvido de equipes de até 3 alunos. Não são aceitos p
 ## Modelagem do programa
 
 A modelagem deve mostrar o seguinte:
-1. **A estrutura do programa**: pensem nos blocos funcionais que o constituem (ex: interface com usuário, repositório de contatos, processador de contatos)
-2. **Representação dos dados**: como são representados contatos, e listas de contatos ? Como eles são armazenados ou organizados na memória usada pelo programa ? Quais os tipos de dados a serem definidos para representá-los ?
-3. **Funcionalidades do programa**: para cada funcionalidade do programa, escrevam a sequência de ações que devem ser realizadas (algo como um algoritmo simplificado e em pseudo-código)
+1. **A estrutura do programa**: pensem nos blocos funcionais que o constituem (ex: interface com usuário, repositório de palavras, processador de buscas)
+2. **Representação dos dados**: como são representados os termos de busca ? Como eles são armazenados ou organizados na memória usada pelo programa ? Quais os tipos de dados a serem definidos para representá-los ?
+3. **Funcionalidades do programa**: para cada funcionalidade do programa, descrevam o que ela entrega como resultado, e de que dados ela precisa para ser executada
 
 ## Desenvolvimento do projeto e acompanhamento pelo professor
 
