@@ -1,8 +1,17 @@
 cmake_minimum_required(VERSION 3.14)
-project(Prg2_Trees)
+project(Proj2)
 
-set(CMAKE_CXX_STANDARD 11)
-include_directories(.)
+set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Prg2_demo main.cpp prglib.h)
-#target_link_libraries(Prg2_demo -L${CMAKE_SOURCE_DIR}/libs prglib)
+include(FetchContent)
+FetchContent_Declare(
+        prglib
+        GIT_REPOSITORY https://github.com/IFSC-Engtelecom-Prg2/Prg2_Trees
+        GIT_TAG v1.0.0
+)
+FetchContent_MakeAvailable(prglib)
+
+include_directories(${prglib_SOURCE_DIR} .)
+
+add_executable(Proj2 main.cpp)
+
